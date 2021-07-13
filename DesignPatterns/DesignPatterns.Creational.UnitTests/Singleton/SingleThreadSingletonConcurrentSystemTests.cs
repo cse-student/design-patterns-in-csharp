@@ -11,7 +11,7 @@ using Xunit.Sdk;
 
 namespace DesignPatterns.Creational.UnitTests.Singleton
 {
-    [Collection("Sequential")]
+    [Collection("Singleton")]
     public class SingleThreadSingletonConcurrentSystemTests
     {
         private readonly IInstantiationCounter _counter;

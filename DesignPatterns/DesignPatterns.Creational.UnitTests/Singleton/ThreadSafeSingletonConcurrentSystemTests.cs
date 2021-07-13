@@ -7,7 +7,7 @@ using Xunit;
 
 namespace DesignPatterns.Creational.UnitTests.Singleton
 {
-    [Collection("Sequential")]
+    [Collection("Singleton")]
     public class ThreadSafeSingletonConcurrentSystemTests
     {
         private readonly IInstantiationCounter _counter;
